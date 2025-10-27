@@ -41,6 +41,7 @@ Model je treniran na satnim povijesnim podacima i koristi kombinaciju tehničkih
 ##  Primjer korištenja (POST /predict)
 
 Ulazni JSON:
+
 {
   "Date": "2025-10-23T13:00:00",
   "Open": 68500.0,
