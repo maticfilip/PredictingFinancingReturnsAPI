@@ -1,0 +1,266 @@
+2025-10-25 15:35:25,485 - ERROR - Prediction failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 97, in predict
+    prediction = model.predict(latest[features])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 1065, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+
+2025-10-25 15:36:12,367 - ERROR - Prediction failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 97, in predict
+    prediction = model.predict(latest[features])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 1065, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+
+2025-10-25 15:36:26,888 - ERROR - Prediction failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 97, in predict
+    prediction = model.predict(latest[features])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 1065, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+
+2025-10-25 15:43:33,194 - ERROR - Prediction failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 104, in predict
+    prediction = model.predict(latest[features])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 1065, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+Feature names seen at fit time, yet now missing:
+- momentum_5
+
+
+2025-10-25 15:44:59,364 - ERROR - Prediction failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 104, in predict
+    prediction = model.predict(latest[features])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 1065, in predict
+    X = self._validate_X_predict(X)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+  File "C:\Users\Perry Hotter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- dayofweek
+- ema_10
+- momentum_3
+- return_t-5
+- sma_20
+- ...
+
+
+2025-10-25 15:53:04,250 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.028490
+2025-10-25 17:34:01,151 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000080
+2025-10-25 17:34:05,703 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.028809
+2025-10-25 17:34:06,536 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.026615
+2025-10-25 17:34:07,139 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.026615
+2025-10-25 17:34:16,060 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.031268
+2025-10-25 17:34:19,890 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.030277
+2025-10-25 17:34:43,302 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.031194
+2025-10-25 17:34:47,048 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.032412
+2025-10-25 17:34:48,705 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.033002
+2025-10-25 17:34:49,394 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.007724
+2025-10-25 17:34:49,901 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.006688
+2025-10-25 17:34:50,588 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.004089
+2025-10-25 17:34:51,159 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.004341
+2025-10-25 17:34:51,687 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.004341
+2025-10-25 17:34:52,166 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.004341
+2025-10-25 17:34:52,377 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.004341
+2025-10-25 17:34:52,567 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.004509
+2025-10-25 17:34:52,729 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.005413
+2025-10-25 17:34:52,873 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.005413
+2025-10-25 17:34:53,005 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.005413
+2025-10-25 17:34:53,152 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.005413
+2025-10-25 17:34:53,285 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.005413
+2025-10-25 17:34:53,413 - INFO - Prediction successful for 2025-10-23T13:00:00: -0.005413
+2025-10-25 17:34:53,583 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:53,679 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:53,804 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:54,651 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:54,798 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:54,981 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:55,133 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:34:55,287 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:15,968 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:17,071 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:17,816 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:18,674 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:19,043 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:19,282 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:19,444 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:19,614 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:19,790 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:19,940 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:20,106 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:20,252 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:20,423 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:20,582 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:20,756 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:20,921 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:33,571 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:35,529 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-25 17:35:43,758 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:50:59,229 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:51:09,100 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:51:11,316 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:51:26,623 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:51:36,506 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:51:49,322 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000066
+2025-10-26 12:52:01,458 - INFO - Prediction successful for 2025-10-23T13:01:00: 0.000066
+2025-10-26 12:52:17,803 - INFO - Prediction successful for 2050-10-23T13:00:00: 0.000066
+2025-10-26 12:52:58,798 - ERROR - Prediction failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 84, in predict
+    if date_value<now.replace(year=now.year-5):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+2025-10-26 12:53:42,297 - ERROR - Prediction failed: 400: {'message': 'Invalid input data.', 'errors': ['Date must be in format: YYYY-MM-DDTHH:MM:SS']}
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 90, in predict
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 400: {'message': 'Invalid input data.', 'errors': ['Date must be in format: YYYY-MM-DDTHH:MM:SS']}
+
+2025-10-26 12:54:11,399 - ERROR - Prediction failed: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Perry Hotter\Desktop\vicuna_api\main.py", line 84, in predict
+    if date_value<now.replace(year=now.year-5):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+2025-10-26 13:02:58,470 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.028490
+2025-10-26 13:03:01,083 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.000080
+2025-10-26 13:03:03,573 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.028809
+2025-10-26 13:03:05,106 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.027042
+2025-10-26 13:03:06,384 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.027042
+2025-10-26 13:03:07,685 - INFO - Prediction successful for 2025-10-23T13:00:00: 0.031268
